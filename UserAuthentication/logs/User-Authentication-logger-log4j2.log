@@ -1,0 +1,24 @@
+2024-04-12 23:11:27,023 INFO o.s.b.StartupInfoLogger [main] Starting UserAuthenticationApplicationTests using Java 17.0.9 with PID 23040 (started by Karthik Yarlagadda in C:\Users\Karthik Yarlagadda\eclipse-workspace\UserAuthentication)
+2024-04-12 23:11:27,035 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-12 23:11:27,797 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12 23:11:27,877 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2024-04-12 23:11:28,475 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12 23:11:28,563 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12 23:11:28,603 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-12 23:11:28,972 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12 23:11:29,023 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-12 23:11:29,148 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77204651
+2024-04-12 23:11:29,148 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-12 23:11:29,180 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12 23:11:30,181 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12 23:11:30,260 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-04-12 23:11:30,260 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] constraint "ukr43af9ap4edm43mmtq01oddj6" of relation "users" does not exist, skipping
+2024-04-12 23:11:30,260 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-04-12 23:11:30,260 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] constraint "uk6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+2024-04-12 23:11:30,276 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12 23:11:30,969 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12 23:11:31,537 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@109f95b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d20cbb5, org.springframework.security.web.context.SecurityContextHolderFilter@2719139f, org.springframework.security.web.header.HeaderWriterFilter@34ac72c3, org.springframework.web.filter.CorsFilter@74eae1e0, org.springframework.security.web.authentication.logout.LogoutFilter@57330423, com.userauthentication.security.AuthTokenFilter@c22cf4d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b641c97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f065f9e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c3357c7, org.springframework.security.web.session.SessionManagementFilter@4d86f330, org.springframework.security.web.access.ExceptionTranslationFilter@28901fe7, org.springframework.security.web.access.intercept.AuthorizationFilter@66d766b9]
+2024-04-12 23:11:32,089 INFO o.s.b.StartupInfoLogger [main] Started UserAuthenticationApplicationTests in 5.468 seconds (process running for 6.883)
+2024-04-12 23:11:33,100 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12 23:11:33,100 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-12 23:11:33,113 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
