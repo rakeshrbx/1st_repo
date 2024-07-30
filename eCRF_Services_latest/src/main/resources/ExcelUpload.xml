@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<workbook>
+    <worksheet name="Sheet1">
+        <section startRow="0" endRow="2">
+
+        </section>
+        <loop startRow="3" items="recordMasterDataList" var="masterDataReader" varType="com.ecrf.dto.MasterDataReader">
+            <section startRow="3" endRow="3"  >
+                <mapping row="3" col="0">masterDataReader.section1.studyTitle </mapping>
+                <mapping row="3" col="1">masterDataReader.section1.projectNo </mapping>
+                <mapping row="3" col="2">masterDataReader.siteId </mapping>
+                <mapping row="3" col="3">masterDataReader.section1.studyDate </mapping>
+                <mapping row="3" col="4">masterDataReader.subjectId </mapping>
+                <mapping row="3" col="5">masterDataReader.section2.subjectYear </mapping>
+                <mapping row="3" col="6">masterDataReader.section2.subjectUnknown </mapping>
+                <mapping row="3" col="7">masterDataReader.section2.subjectGender </mapping>
+                <mapping row="3" col="8">masterDataReader.section2.otherCheck </mapping>
+                <mapping row="3" col="9">masterDataReader.section2.subjectOtherText </mapping>
+                <mapping row="3" col="10">masterDataReader.section2.placeOfBirthCity </mapping>
+                <mapping row="3" col="11">masterDataReader.section2.placeOfBirthState </mapping>
+                <mapping row="3" col="12">masterDataReader.section2.residencyCity </mapping>
+                <mapping row="3" col="13">masterDataReader.section2.residencyState </mapping>
+                <mapping row="3" col="14">masterDataReader.section3.dateOfHcc </mapping>
+                <mapping row="3" col="15">masterDataReader.section3.baseLineIfDate </mapping>
+                <mapping row="3" col="16">masterDataReader.section3.baseLineAgeOfHcc </mapping>
+                <mapping row="3" col="17">masterDataReader.section3.baseLineHeight </mapping>
+                <mapping row="3" col="18">masterDataReader.section3.weightHggBaseLine </mapping>
+                <mapping row="3" col="19">masterDataReader.section3.bmiBaseLine </mapping>
+                <mapping row="3" col="20">masterDataReader.section3.insuranceValue </mapping>
+                <mapping row="3" col="21">masterDataReader.section3.insuraceValueOtherBaseline </mapping>
+                <mapping row="3" col="22">masterDataReader.section3.insuraceDetailsBaseLine </mapping>
+                <mapping row="3" col="23">masterDataReader.section4.alanineValue </mapping>
+                <mapping row="3" col="24">masterDataReader.section4.alanineFrom </mapping>
+                <mapping row="3" col="25">masterDataReader.section4.alanineTo </mapping>
+                <mapping row="3" col="27">masterDataReader.section4.aspartateValue </mapping>
+                <mapping row="3" col="28">masterDataReader.section4.aspartateFrom </mapping>
+                <mapping row="3" col="29">masterDataReader.section4.aspartateTo </mapping>
+                <mapping row="3" col="31">masterDataReader.section4.bilirubinValue </mapping>
+                <mapping row="3" col="32">masterDataReader.section4.bilirubinFrom </mapping>
+                <mapping row="3" col="33">masterDataReader.section4.bilirubinTo </mapping>
+                <mapping row="3" col="35">masterDataReader.section4.alkalineValue </mapping>
+                <mapping row="3" col="36">masterDataReader.section4.alkalineFrom </mapping>
+                <mapping row="3" col="37">masterDataReader.section4.alkalineTo </mapping>
+                <mapping row="3" col="39">masterDataReader.section4.albuminValue </mapping>
+                <mapping row="3" col="40">masterDataReader.section4.albuminFrom </mapping>
+                <mapping row="3" col="41">masterDataReader.section4.albuminTo </mapping>
+                <mapping row="3" col="43">masterDataReader.section4.platelatesValue </mapping>
+                <mapping row="3" col="44">masterDataReader.section4.platelatesFrom </mapping>
+                <mapping row="3" col="45">masterDataReader.section4.platelatesTo </mapping>
+                <mapping row="3" col="47">masterDataReader.section4.creatinineValue </mapping>
+                <mapping row="3" col="48">masterDataReader.section4.creatinineFrom </mapping>
+                <mapping row="3" col="49">masterDataReader.section4.creatinineTo </mapping>
+                <mapping row="3" col="51">masterDataReader.section4.prothrombinValue </mapping>
+                <mapping row="3" col="52">masterDataReader.section4.prothrombinFrom </mapping>
+                <mapping row="3" col="53">masterDataReader.section4.prothrombinTo </mapping>
+                <mapping row="3" col="55">masterDataReader.section4.internationalValue </mapping>
+                <mapping row="3" col="56">masterDataReader.section4.internationalFrom </mapping>
+                <mapping row="3" col="57">masterDataReader.section4.internationalTo </mapping>
+                <mapping row="3" col="59">masterDataReader.section4.alphaValue </mapping>
+                <mapping row="3" col="60">masterDataReader.section4.alphaFrom </mapping>
+                <mapping row="3" col="61">masterDataReader.section4.alphaTo </mapping>
+                <mapping row="3" col="63">masterDataReader.section4.sodiumValue </mapping>
+                <mapping row="3" col="64">masterDataReader.section4.sodiumFrom </mapping>
+                <mapping row="3" col="65">masterDataReader.section4.sodiumTo </mapping>
+                <mapping row="3" col="67">masterDataReader.section4.bloodUreaValue </mapping>
+                <mapping row="3" col="68">masterDataReader.section4.bloodUreaFrom </mapping>
+                <mapping row="3" col="69">masterDataReader.section4.bloodUreaTo </mapping>
+                <mapping row="3" col="71">masterDataReader.section4.cholesterolValue </mapping>
+                <mapping row="3" col="72">masterDataReader.section4.cholesterolFrom </mapping>
+                <mapping row="3" col="73">masterDataReader.section4.cholesterolTo </mapping>
+                <mapping row="3" col="75">masterDataReader.section4.triglyceridesValue </mapping>
+                <mapping row="3" col="76">masterDataReader.section4.triglyceridesFrom </mapping>
+                <mapping row="3" col="77">masterDataReader.section4.triglyceridesTo </mapping>
+                <mapping row="3" col="79">masterDataReader.section4.highDensityValue </mapping>
+                <mapping row="3" col="80">masterDataReader.section4.highDenistyFrom </mapping>
+                <mapping row="3" col="81">masterDataReader.section4.highDensityTo </mapping>
+                <mapping row="3" col="83">masterDataReader.section4.lowDensityValue </mapping>
+                <mapping row="3" col="84">masterDataReader.section4.lowDensityFrom </mapping>
+                <mapping row="3" col="85">masterDataReader.section4.lowDensityTo </mapping>
+                <mapping row="3" col="87">masterDataReader.section4.modelEndStageLab </mapping>
+                <mapping row="3" col="88">masterDataReader.section4.modelEndStageTextArea </mapping>
+                <mapping row="3" col="89">masterDataReader.section4.meldScoreLab </mapping>
+                <mapping row="3" col="90">masterDataReader.section4.fib4Lab </mapping>
+                <mapping row="3" col="91">masterDataReader.section4.astPlateletLab </mapping>
+
+                <mapping row="3" col="92">masterDataReader.section5.diabetesComorbidities </mapping>
+                <mapping row="3" col="93">masterDataReader.section5.diabetesAfter </mapping>
+                <mapping row="3" col="94">masterDataReader.section5.yesDiabetesInput </mapping>
+                <mapping row="3" col="95">masterDataReader.section5.hypertensionComorbidities </mapping>
+                <mapping row="3" col="96">masterDataReader.section5.hypertensionAfter </mapping>
+                <mapping row="3" col="97">masterDataReader.section5.yesHyperTensionInput </mapping>
+                <mapping row="3" col="98">masterDataReader.section5.dyslipidemiaComorbidities </mapping>
+                <mapping row="3" col="99">masterDataReader.section5.dysliAfter </mapping>
+                <mapping row="3" col="100">masterDataReader.section5.yesDyslipidemiaInput </mapping>
+                <mapping row="3" col="101">masterDataReader.section5.coronaryComorbidities </mapping>
+                <mapping row="3" col="102">masterDataReader.section5.coronaryAfter </mapping>
+                <mapping row="3" col="103">masterDataReader.section5.yesCoronaryInput </mapping>
+                <mapping row="3" col="104">masterDataReader.section5.peripheralComorbidities </mapping>
+                <mapping row="3" col="105">masterDataReader.section5.peripheralAfter </mapping>
+                <mapping row="3" col="106">masterDataReader.section5.yesPeripheralInput </mapping>
+                <mapping row="3" col="107">masterDataReader.section5.hivComorbidities </mapping>
+                <mapping row="3" col="108">masterDataReader.section5.hivAfter </mapping>
+                <mapping row="3" col="109">masterDataReader.section5.yesHivInput </mapping>
+                <mapping row="3" col="110">masterDataReader.section5.nonLiverCancer </mapping>
+                <mapping row="3" col="111">masterDataReader.section5.yesLocationSiteValue </mapping>
+                <mapping row="3" col="112">masterDataReader.section5.yesStageValue </mapping>
+                <mapping row="3" col="113">masterDataReader.section5.yesYearOfDiagnosis </mapping>
+                <mapping row="3" col="114">masterDataReader.section5.alcoholConsumptionValue </mapping>
+                <mapping row="3" col="115">masterDataReader.section5.alcoholConsumptionValueSub </mapping>
+
+                <mapping row="3" col="116">masterDataReader.section6.diagnosisInformationValue </mapping>
+                <mapping row="3" col="117">masterDataReader.section6.hccDiagnosisInfoValueOtherSpecify </mapping>
+                <mapping row="3" col="118">masterDataReader.section6.typeOfImagine </mapping>
+                <mapping row="3" col="119">masterDataReader.section6.typeOfImagineText </mapping>
+                <mapping row="3" col="120">masterDataReader.section6.hccDiagnosisImagingDate </mapping>
+                <mapping row="3" col="121">masterDataReader.section6.hccDiagnosisImagingUnkown </mapping>
+                <mapping row="3" col="122">masterDataReader.section6.hccDiagnosisTissueDate </mapping>
+                <mapping row="3" col="123">masterDataReader.section6.hccDiagnosisTissueUnknown </mapping>
+
+                <mapping row="3" col="124">masterDataReader.section7.largeTurmorValue </mapping>
+                <mapping row="3" col="125">masterDataReader.section7.tprimaryValue </mapping>
+                <mapping row="3" col="126">masterDataReader.section7.nregionalValue </mapping>
+                <mapping row="3" col="127">masterDataReader.section7.mregionalValue </mapping>
+                <mapping row="3" col="128">masterDataReader.section7.anatomicStageTNM </mapping>
+                <mapping row="3" col="129">masterDataReader.section7.tumorDiffValue </mapping>
+                <mapping row="3" col="130">masterDataReader.section7.ecogperformace </mapping>
+                <mapping row="3" col="131">masterDataReader.section7.tumorStageValue </mapping>
+                <mapping row="3" col="132">masterDataReader.section7.typeOfVascular </mapping>
+                <mapping row="3" col="133">masterDataReader.section7.microvascularInvasion </mapping>
+                <mapping row="3" col="134">masterDataReader.section7.tumorWithinMilan </mapping>
+                <mapping row="3" col="135">masterDataReader.section7.childPughClassfication </mapping>
+                <mapping row="3" col="136">masterDataReader.section7.barcelonaClinic </mapping>
+
+                <mapping row="3" col="137">masterDataReader.section8.fattyLiverCLD </mapping>
+                <mapping row="3" col="138">masterDataReader.section8.fattyLiverRadioLast </mapping>
+                <mapping row="3" col="139">masterDataReader.section8.fattyLiverDiagnosticFreeText </mapping>
+                <mapping row="3" col="140">masterDataReader.section8.cirrhosisStatusValue </mapping>
+                <mapping row="3" col="141">masterDataReader.section8.mittalCriteriaValue </mapping>
+                <mapping row="3" col="142">masterDataReader.section8.underlyingEtiologyValue </mapping>
+                <mapping row="3" col="143">masterDataReader.section8.etiologyCirrhosisFreeValue </mapping>
+                <mapping row="3" col="144">masterDataReader.section8.complicationCLD </mapping>
+
+                <mapping row="3" col="145">masterDataReader.section9.hccOutcomeValue </mapping>
+                <mapping row="3" col="146">masterDataReader.section9.treamentModalitiesHCC </mapping>
+                <mapping row="3" col="147">masterDataReader.section9.resectionPerformed </mapping>
+                <mapping row="3" col="148">masterDataReader.section9.liverTransplantValue </mapping>
+                <mapping row="3" col="149">masterDataReader.section9.recurrenceValue </mapping>
+                <mapping row="3" col="150">masterDataReader.section9.selectedDateOfFirstRecurrence </mapping>
+                <mapping row="3" col="151">masterDataReader.section9.survivalStatusValue </mapping>
+                <mapping row="3" col="152">masterDataReader.section9.selectedDateOfDeath </mapping>
+                <mapping row="3" col="153">masterDataReader.section9.dateOfDeathUnknown </mapping>
+                <mapping row="3" col="154">masterDataReader.section9.selectedDateOfLastContact </mapping>
+                <mapping row="3" col="155">masterDataReader.section9.lastContactUnknown </mapping>
+                <mapping row="3" col="156">masterDataReader.section9.selectedDateOfRecurrenceFree </mapping>
+                <mapping row="3" col="157">masterDataReader.section9.selectedDateOfOverallSurvival </mapping>
+                <mapping row="3" col="158">masterDataReader.section10.screeningQuestion </mapping>
+                <mapping row="3" col="159">masterDataReader.section10.screening2Years </mapping>
+                <mapping row="3" col="160">masterDataReader.section10.screening1Year </mapping>
+                <mapping row="3" col="161">masterDataReader.section10.methodOfScreening </mapping>
+                <mapping row="3" col="162">masterDataReader.section10.methodOfScreeningTxt </mapping>
+                <mapping row="3" col="163">masterDataReader.section11.historyHIV </mapping>
+                <mapping row="3" col="164">masterDataReader.section11.yearOfHIVHCC </mapping>
+                <mapping row="3" col="165">masterDataReader.section11.dateOfHIVDurationFrom </mapping>
+                <mapping row="3" col="166">masterDataReader.section11.hivRNAHCC </mapping>
+                <mapping row="3" col="167">masterDataReader.section11.belowRadioHCC </mapping>
+                <mapping row="3" col="168">masterDataReader.section11.hivCD4 </mapping>
+                <mapping row="3" col="169">masterDataReader.section11.hivAbsoluteCD4 </mapping>
+                <mapping row="3" col="170">masterDataReader.section11.hivCD4CellCount </mapping>
+                <mapping row="3" col="171">masterDataReader.section11.hivInitialHIV1 </mapping>
+                <mapping row="3" col="172">masterDataReader.section11.maximumHIVRNA </mapping>
+                <mapping row="3" col="173">masterDataReader.section12.isDateHCVDiagnosis </mapping>
+                <mapping row="3" col="174">masterDataReader.section12.dateOfHCVCVirus </mapping>
+                <mapping row="3" col="175">masterDataReader.section12.isHCViralCVirus </mapping>
+                <mapping row="3" col="176">masterDataReader.section12.HCVviralTimeOfHCCDiagnosis </mapping>
+                <mapping row="3" col="178">masterDataReader.section12.hcvGenotype </mapping>
+                <mapping row="3" col="179">masterDataReader.section12.wasHCVReceivedBeforeAfter </mapping>
+                <mapping row="3" col="180">masterDataReader.section12.hcvTreatmentCVirus </mapping>
+                <mapping row="3" col="181">masterDataReader.section12.hcvTreatedYear </mapping>
+                <mapping row="3" col="182">masterDataReader.section12.hcvViralLoadAfterTreatment </mapping>
+                <mapping row="3" col="183">masterDataReader.section12.hcvPostTreatment </mapping>
+                <mapping row="3" col="185">masterDataReader.section12.sustainedHCV </mapping>
+                <mapping row="3" col="186">masterDataReader.section12.yearSVRHCV </mapping>
+                <mapping row="3" col="187">masterDataReader.section13.isDateHBVDiagnosis </mapping>
+                <mapping row="3" col="188">masterDataReader.section13.dateOfHBVBVirus </mapping>
+                <mapping row="3" col="189">masterDataReader.section13.isHBViralBVirus </mapping>
+                <mapping row="3" col="190">masterDataReader.section13.HBVviralTimeOfHCCDiagnosis </mapping>
+                <mapping row="3" col="192">masterDataReader.section13.wasHBVReceivedBeforeAfter </mapping>
+                <mapping row="3" col="193">masterDataReader.section13.hcvTreatmentBVirus </mapping>
+                <mapping row="3" col="194">masterDataReader.section13.dateOfHBVTreatmentYear </mapping>
+                <mapping row="3" col="195">masterDataReader.section13.hbvViralLoadAfterTreatment </mapping>
+                <mapping row="3" col="196">masterDataReader.section13.hbvPostTreatment </mapping>
+                <mapping row="3" col="198">masterDataReader.section14.changedBy </mapping>
+                <mapping row="3" col="199">masterDataReader.section14.changedOn </mapping>
+                <mapping row="3" col="200">masterDataReader.section14.createdBy </mapping>
+                <mapping row="3" col="201">masterDataReader.section14.createdOn </mapping>
+            </section>
+            <loopbreakcondition>
+                <rowcheck offset="0">
+                    <cellcheck offset="0"/>
+                </rowcheck>
+            </loopbreakcondition>
+        </loop>
+    </worksheet>
+</workbook>
+                

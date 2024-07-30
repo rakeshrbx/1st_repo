@@ -1,0 +1,7 @@
+CREATE SEQUENCE jtpsequence  
+INCREMENT 1  
+START 1;  
+
+CREATE SEQUENCE jtpsequence1  
+INCREMENT 1  
+START 1;  
