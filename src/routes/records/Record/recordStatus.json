@@ -1,0 +1,20 @@
+{
+  "INIT": "In progress at Data Entry (Record Created)",
+  "SUBMITTED_TO_REVIEWER_FROM_DATAENTRY": "Submitted to Reviewer from Data Entry",
+  "INPROGRESS_AT_DATAENTRY_FROM_REVIEWER_SUBMISSION": "In progress at Data Entry (Reviewer Submission)",
+  "INPROGRESS_AT_DATAENTRY_FROM_REVIEWER_RESUBMISSION": "In progress at Data Entry (Reviewer Resubmission)",
+  "RESUBMITTED_TO_REVIEWER_FROM_DATAENTRY": "Resubmitted to Reviewer from Data Entry",
+  "INPROGRESS_AT_REVIEWER_FROM_DATAENTRY_SUBMISSION": "In progress at Reviewer (Data Entry Submission)",
+  "INPROGRESS_AT_REVIEWER_FROM_PI_SUBMISSION": "In progress at Reviewer (PI Submission)",
+  "INPROGRESS_AT_REVIEWER_FROM_DATAENTRY_RESUBMISSION": "In progress at Reviewer (Data Entry Resubmission)",
+  "INPROGRESS_AT_REVIEWER_FROM_PI_RESUBMISSION": "In progress at Reviewer (PI Resubmission)",
+  "SUBMITTED_TO_DATAENTRY_FROM_REVIEWER": "Submitted to Data Entry from Reviewer",
+  "RESUBMITTED_TO_DATAENTRY_FROM_REVIEWER": "Resubmitted to Data Entry from Reviewer",
+  "SUBMITTED_TO_PI": "Submitted to PI",
+  "RESUBMITTED_TO_PI": "Resubmitted to PI",
+  "INPROGRESS_AT_PI_SUBMISSION": "In progress at PI (Submission)",
+  "INPROGRESS_AT_PI_RESUBMISSION": "In progress at PI (Resubmission)",
+  "SUBMITTED_TO_REVIWER_FROM_PI": "Submitted to Reviewer from PI",
+  "RESUBMITTED_TO_REVIWER_FROM_PI": "Resubmitted to Reviewer from PI",
+  "SIGN_OFF": "Completed"
+}

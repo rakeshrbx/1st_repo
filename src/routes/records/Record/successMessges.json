@@ -1,0 +1,20 @@
+{
+  "INIT": "Data Saved",
+  "SUBMITTED_TO_REVIEWER_FROM_DATAENTRY": "Record submitted to Reviewer",
+  "INPROGRESS_AT_DATAENTRY_FROM_REVIEWER_SUBMISSION": "Data Saved",
+  "INPROGRESS_AT_DATAENTRY_FROM_REVIEWER_RESUBMISSION": "Data Saved",
+  "RESUBMITTED_TO_REVIEWER_FROM_DATAENTRY": "Record resubmitted Reviewer",
+  "INPROGRESS_AT_REVIEWER_FROM_DATAENTRY_SUBMISSION": "Data Saved",
+  "INPROGRESS_AT_REVIEWER_FROM_PI_SUBMISSION": "Data Saved",
+  "INPROGRESS_AT_REVIEWER_FROM_DATAENTRY_RESUBMISSION": "Data Saved",
+  "INPROGRESS_AT_REVIEWER_FROM_PI_RESUBMISSION": "Data Saved",
+  "SUBMITTED_TO_DATAENTRY_FROM_REVIEWER": "Record submitted Data Entry",
+  "RESUBMITTED_TO_DATAENTRY_FROM_REVIEWER": "Record resubmitted to Data Entry",
+  "SUBMITTED_TO_PI": "Record submitted to PI",
+  "RESUBMITTED_TO_PI": "Record resubmitted to PI",
+  "INPROGRESS_AT_PI_SUBMISSION": "Data Saved",
+  "INPROGRESS_AT_PI_RESUBMISSION": "Data Saved",
+  "SUBMITTED_TO_REVIWER_FROM_PI": "Record submitted to Reviewer",
+  "RESUBMITTED_TO_REVIWER_FROM_PI": "Record resubmitted to Reviewer",
+  "SIGN_OFF": "Record Signed Off Successfully"
+}
