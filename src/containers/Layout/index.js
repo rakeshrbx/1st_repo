@@ -9,6 +9,7 @@ const LayoutContainer = ({ children }) => {
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
+
   const [collapsed, setCollapsed] = useState(false);
 
   return (

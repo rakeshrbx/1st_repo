@@ -18,6 +18,7 @@ module.exports = {
     //   headerSortHoverBg: "#0073aa",
     //   headerSortActiveBg: "#0ab1db",
     // },
+
     Menu: {
       itemBg: "#fff",
       itemActiveBg: "#0073aa",
@@ -37,6 +38,7 @@ module.exports = {
     Collapse: {
       headerBg: "#e9fbfb",
     },
+
     Card: {
       colorBgContainer: "#fff",
       padding: "10px",

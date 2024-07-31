@@ -134,6 +134,7 @@ function Section9(props) {
             rules={[
               {
                 required: true,
+                message: "",
               },
             ]}
             name={["section9", "hccOutcomeValue"]}

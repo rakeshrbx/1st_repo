@@ -35,6 +35,10 @@ export const MainAppStyles = styled.div`
     color: black;
   }
 
+  .ant-message .ant-message-notice-wrapper .ant-message-notice-content {
+    font-weight: 600 !important;
+  }
+
   .ant-divider-inner-text {
     color: ${theme.token.colorPrimary} !important;
   }
