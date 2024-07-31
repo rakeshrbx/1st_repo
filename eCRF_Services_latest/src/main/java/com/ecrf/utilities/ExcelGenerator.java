@@ -229,7 +229,7 @@ public class ExcelGenerator {
                             row.createCell(7).setCellValue(String.valueOf(map.get(COMMENT)));
                             row.createCell(8).setCellValue(auditEntity.getModifiedBy());
                             row.createCell(9).setCellValue(auditEntity.getRole());
-                            row.createCell(10).setCellValue(auditEntity.getModifiedOn().format(DateTimeFormatter.ofPattern("DD-MM-YYYY, HH:mm:ss")));
+                            row.createCell(10).setCellValue(auditEntity.getModifiedOn().format(DateTimeFormatter.ofPattern("dd-MM-yyyy, HH:mm:ss")));
                             row.createCell(11).setCellValue(String.valueOf(map.get(FIELD_NAME)));
                             rowIndex[0]++;
                         }
